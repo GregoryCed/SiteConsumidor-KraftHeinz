@@ -1,0 +1,47 @@
+:root {
+    --bg-color-blue : #183D6E;
+    --bg-color-red: #C14040; 
+}
+
+.main-color{
+    background-color: var(--bg-color-blue);
+}
+
+.home-bg{
+    background-image: url(../images/Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+
+.home-bg h1 {
+    background-color: #183d6ec9;
+}
+
+.box-aval-prod{
+    width: 100%;
+    background-color: var(--bg-color-blue);
+}
+
+.title-aval-prod{
+    height: 20vh;
+}
+
+.title-aval-prod h2{
+    background-color: var(--bg-color-red);
+}
+
+.select-style{
+    background-color: var(--bg-color-red);
+    border: none;
+}
+
+.form-select{
+    height: 5vh;
+}
+
+.input-group{
+    height: 5vh;
+}
+
