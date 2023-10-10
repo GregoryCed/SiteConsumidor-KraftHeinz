@@ -1,0 +1,54 @@
+.box-title-aval{
+    height: 38vh;
+}
+
+.box-title-aval h1{
+    background-color: var(--bg-color-red);
+}
+
+.container-style{
+    background-color: var(--bg-color-blue);
+}
+
+.box-prod{
+    background-color: #fff;
+}
+
+.box-perg{
+    background-color: #A5BBD7;
+    width: 80%;
+}
+
+.form-check-input{
+    background-color: #D89C9C;
+    border: none;
+}
+
+.box-comentario{
+    height: 55vh;
+    width: 100%;
+}
+
+.box-btn{
+    height: 15vh;
+}
+
+.btn{
+    background-color: var(--bg-color-red);
+    padding: 0.8rem 2.5rem;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    border: var(--bs-border-width) solid var(--bg-color-red); 
+}
+
+.box-linha{
+    height: 20vh;
+    width: 100%;
+}
+
+.box-quant-coment{
+    width: 25%;
+    background-color: var(--bg-color-red);
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/avaliacao.css">
+
+    <title>Avaliação</title>
+</head>
+<body>
+
+    <nav class="navbar main-color d-flex">
+        <div class="container align-items-center justify-content-center">
+            <img src="../images/Logo-KraftHeinz.png" alt="logo-KraftHeiz" width="30%" >
+       </div>
+    </nav>
+
+    <div class="box-title-aval d-flex align-items-center justify-content-center">
+        <h1 class="text-light m-0 py-2 px-4 rounded-4">Avaliação de Produtos</h1>
+    </div>
+
+    <div class="container container-style p-5 rounded-4">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-7">
+                <div class="d-flex align-items-center justify-content-center box-prod rounded-4 p-5">                
+                    <img src="../images/Ketchup.png" width="50%" alt="">                    
+                    <div>
+                        <p class="fs-3">Tomato<br>Ketchup</p>
+                        <img src="../images/ESTRELAS.png" width="40%" alt="">
+                        <p>4.0/5.0</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                <div class="box-perg d-flex flex-column align-items-center justify-content-center rounded-3 my-3 p-2">
+                    <p class="text-light">Você gostou desse produto ?</p>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label text-light" for="inlineRadio1">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label text-light" for="inlineRadio2">Não</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-perg d-flex flex-column align-items-center justify-content-center rounded-3 my-3 p-2">
+                    <p class="text-light">Teve problemas com a embalagem ?</p>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label text-light" for="inlineRadio1">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label text-light" for="inlineRadio2">Não</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-perg d-flex flex-column align-items-center justify-content-center rounded-3 my-3 p-2">
+                    <p class="text-light">Compraria novamente ?</p>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label text-light" for="inlineRadio1">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label text-light" for="inlineRadio2">Não</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-comentario d-flex flex-column justify-content-end">
+            <p class="text-light mb-1 mx-5">Seu comentário: </p>
+            <div class="mx-5">
+                <textarea class="form-control opacity-75" placeholder="Escreva o seu comentário aqui." id="floatingTextarea2" style="height: 30vh;"></textarea>                
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center my-4">
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <p class="mb-1 text-light">Pontuação</p>
+                <img src="../images/ESTRELAS-vazias.png" alt="" width="60%">
+            </div>
+            <div class="col-md-6">
+                <div class="box-btn d-flex justify-content-center align-items-center">
+                    <a href="./produtos.html"><button type="submit" class="btn text-light fw-bold">Ver todos produtos</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box-linha d-flex align-items-center justify-content-center">
+        <img src="../images/rowBlack.png" alt="" width="80%">
+    </div>
+
+    <div class="container container-style p-5 rounded-4">
+        <div class="box-quant-coment d-flex align-items-center justify-content-center rounded-3 p-2">
+            <p class="text-light fs-3 m-0">Comentários: </p>
+            <p class="text-light opacity-50 fs-3 m-0 ps-2">30</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
