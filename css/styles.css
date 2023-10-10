@@ -1,6 +1,7 @@
 :root {
     --bg-color-blue : #183D6E;
-    --bg-color-red: #C14040; 
+    --bg-color-red: #C14040;
+    --bg-color-light-blue: #345F9F;
 }
 
 .main-color{
@@ -25,7 +26,7 @@
 }
 
 .title-aval-prod{
-    height: 20vh;
+    height: 30vh;
 }
 
 .title-aval-prod h2{
@@ -37,7 +38,44 @@
     border: none;
 }
 
-.input-group{
+.form-select{
     height: 5vh;
+    width: 95%;
 }
 
+.input-group{
+    height: 5vh;
+    width: 95%;
+}
+
+.card{
+    background-color: var(--bg-color-light-blue);
+}
+
+.btn{
+    background-color: var(--bg-color-red);
+    padding: 0.8rem 2.5rem;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    border: var(--bs-border-width) solid var(--bg-color-red); 
+}
+
+.bg-img-card{
+    background-color: #fff;
+    min-height: 30vh;
+}
+
+.page-link{
+    background-color: transparent;
+    border: transparent;
+}
+
+.page-link:hover{
+    background-color: var(--bg-color-light-blue);
+}
+
+.bg-num{
+    background-color: var(--bg-color-red);
+}

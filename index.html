@@ -10,31 +10,29 @@
   <body>
 
     <nav class="navbar main-color d-flex">
-        <div class="container align-items-center justify-content-center">
-          <a class="navbar-brand" href="#">
-            <img src="./images/Logo-KraftHeinz.png" alt="logo-KraftHeiz" width="80%" >
-          </a>
-        </div>
-      </nav>
+      <div class="container align-items-center justify-content-center">
+          <img src="../images/Logo-KraftHeinz.png" alt="logo-KraftHeiz" width="30%">
+      </div>
+    </nav>
 
       <div class="container-fluid p-0 mb-5">
         <div class="home-bg d-flex flex-column align-items-center justify-content-center ">
             <h1 class="text-light py-3 px-4 ">Queremos sua opinião!</h1>
             <div>
-                <a href=""><img src="./images/icon-arrow.png" alt="icon-arrow-down"></a>
+                <a href="#produtos"><img src="./images/icon-arrow.png" alt="icon-arrow-down"></a>
             </div>
         </div>
       </div>
     
-    <div class="container">
-        <div class="box-aval-prod rounded-4">
+    <div class="container" id="produtos">
+        <div class="box-aval-prod rounded-4 pb-5 mb-5">
             <div class="title-aval-prod d-flex align-items-center justify-content-center">
                 <h2 class="text-light p-3 rounded-4">Avalie um Produto</h2>
             </div>
 
-            <div class="row">
+            <div class="row px-5">
                 <div class="col-md-6">
-                    <select class="form-select select-style text-light m-2" >
+                    <select class="form-select select-style text-light">
                         <option selected>Marcas</option>                                                     
                         <option value="1">One</option>
                         <option value="2">Two</option>
@@ -42,12 +40,113 @@
                       </select>
                 </div>
                 <div class="col-md-6">
-                    <div class="input-group input-group-sm m-2">
+                    <div class="input-group input-group-sm">
                         <input type="text" class="form-control form-control-sm" placeholder="Digite um produto">
                         <button class="btn btn-outline-secondary text-light" type="button" id="button-addon2">Buscar</button>
                       </div>
                 </div>                
             </div>
+
+            <div class="d-flex align-items-center justify-content-center m-5">
+
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Ketchup.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Mostarda.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Maionese.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Molho de Tomare.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Extrato de tomate.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col">
+                  <div class="card m-4">
+                    <div class="bg-img-card d-flex align-items-center justify-content-center m-4 rounded-4 ">
+                      <img src="./images/Milho enlatado.png" width="80%">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="./pages/avaliacao.html"><button type="submit" class="btn text-light fw-bold">Avaliar</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+
+                
+
+              </div>
+              
+            </div>
+
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center align-items-center">
+                <li class="page-item">
+                  <a class="page-link"><img src="./images/icon-back.png" width="50%" alt=""></a>
+                </li>
+                <li class="page-item"><a class="page-link fs-3 text-light bg-num rounded-5 mx-2 px-3" href="#">1</a></li>
+                <li class="page-item"><a class="page-link fs-3 text-light bg-num rounded-5 mx-2 px-3" href="#">2</a></li>
+                <li class="page-item"><a class="page-link fs-3 text-light bg-num rounded-5 mx-2 px-3" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#"><img src="./images/icon-next.png" width="50%" alt=""></a>
+                </li>
+              </ul>
+            </nav>
         </div>
     </div>
     
