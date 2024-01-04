@@ -9,7 +9,7 @@ Pensando nisso desenvolveremos um sistema que capta as reclamações e ideias do
 ### SOBRE O PROJETO:
 Este repositório é apenas o Front-end da página para os consumidores da Kraft Heinz deste projeto, algo a parte da real solução que fizemos, seu design foi criado pela Anne Rezende (integrante do grupo) e desenvolvido por mim.
 
-### Tecnologias usadas:
+### TECNOLOGIAS USADAS:
 * HTML5
 * CSS3
 * JavaScript
