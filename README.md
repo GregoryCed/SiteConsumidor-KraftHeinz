@@ -20,4 +20,5 @@ Para iniciar o projeto, apenas abra o arquivo index.html em seu navegador.
 
 ### CONTATO:
 www.linkedin.com/in/gregory-cedraz/
+
 www.linkedin.com/in/anne-rezende/
